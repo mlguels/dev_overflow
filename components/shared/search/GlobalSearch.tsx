@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Input } from "../ui/input";
+import { Input } from "../../ui/input";
 
 const GlobalSearch = () => {
   return (
