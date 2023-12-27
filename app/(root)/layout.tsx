@@ -1,4 +1,5 @@
 import LeftSidebar from "@/components/shared/LeftSidebar";
+import RightSidebar from "@/components/shared/RightSidebar";
 import Navbar from "@/components/shared/navbar/Navbar";
 import React from "react";
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         >
           <div className="mx-auto w-full max-w-5xl">{children}</div>
         </section>
+        <RightSidebar />
       </div>
       Toaster
     </main>
