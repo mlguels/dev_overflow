@@ -1,3 +1,4 @@
+import LeftSidebar from "@/components/shared/LeftSidebar";
 import Navbar from "@/components/shared/navbar/Navbar";
 import React from "react";
 
@@ -10,7 +11,7 @@ export default function RootLayout({
     <main className="background-light850_dark100 relative">
       <Navbar />
       <div className="flex">
-        LeftSideBar
+        <LeftSidebar />
         <section
           className="
             flex
