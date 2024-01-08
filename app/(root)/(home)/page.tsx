@@ -74,7 +74,7 @@ export default function Home() {
             title="There are no questions to show"
             description="Be the first to break the silence! Ask a questions and kickstart the discussion."
             link="/ask-question"
-            linkText="Ask a Question"
+            linkTitle="Ask a Question"
           />
         )}
       </div>
