@@ -5,34 +5,34 @@ import RenderTag from "./RenderTag";
 
 const questions = [
   {
-    _id: 1,
+    _id: "1",
     title:
       "Would it be appropriate to point out an error in another paper during a referee report?",
   },
   {
-    _id: 2,
+    _id: "2",
     title: "How can an air conditioning machine exist?",
   },
   {
-    _id: 3,
+    _id: "3",
     title: "Interrogated evert time crossing UK Border as citizen?",
   },
   {
-    _id: 4,
+    _id: "4",
     title: "Low digit addition generator",
   },
   {
-    _id: 5,
+    _id: "5",
     title: "What is an example of 3 numbers that do not make up a vector?",
   },
 ];
 
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 523 },
-  { _id: 2, name: "python", totalQuestions: 51 },
-  { _id: 3, name: "react", totalQuestions: 12 },
-  { _id: 4, name: "nextjs", totalQuestions: 4 },
-  { _id: 5, name: "typescript", totalQuestions: 512 },
+  { _id: "1", name: "javascript", totalQuestions: 523 },
+  { _id: "2", name: "python", totalQuestions: 51 },
+  { _id: "3", name: "react", totalQuestions: 12 },
+  { _id: "4", name: "nextjs", totalQuestions: 4 },
+  { _id: "5", name: "typescript", totalQuestions: 512 },
 ];
 
 const RightSidebar = () => {
